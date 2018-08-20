@@ -94,7 +94,7 @@ destroy-oke:
         REGION:              $REGION
         COMPARTMENT_OCID:    $COMPARTMENT_OCID
 #Deploy MySQL on OKE.
-mysql-oke:
+mysql-to-oke:
   box: oraclelinux:7.5
   steps:
     - $WERCKER_USER/mysql-to-oke:
