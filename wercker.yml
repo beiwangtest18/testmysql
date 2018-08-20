@@ -67,8 +67,6 @@ mysql-oke:
     - $WERCKER_USER/mysql-to-oke:
         NAME_PREFIX:         $NAME_PREFIX
         USER_OCID:           $USER_OCID
-        OCIR_USERNAME:       $OCIR_USERNAME
-        OCIR_PASSWORD:       $OCIR_PASSWORD        
         FINGERPRINT:         $FINGERPRINT
         API_KEY:             $API_KEY
         TENANCY_OCID:        $TENANCY_OCID
